@@ -4,3 +4,117 @@
     <div class="header">
 
     </div>
+
+column-count: 2;
+                    float: left;
+                    background-color: grey;
+
+
+display: block;
+       width: 40%;
+       border: 2px solid black;
+       height: 100%;
+       margin: 0px 200px 0px 0px;
+
+
+
+display: block;
+        width: 60%;
+        margin: 0px 10px 20px 0px;
+        padding-right: 100px;
+
+
+
+<div class="column2">
+<!-- (1) GO FOR THE HEADER -->
+            <div class="row">
+                <div class="header">
+                    <h1>THE CLUB</h1>
+                </div>
+            </div>
+
+            <!-- (2) GO FOR THE GRADIENT BAR WITH QUOTE -->
+
+
+
+
+}
+
+li a {
+        display: inline;
+        color: red;
+        padding: 10px 10px 10px 8px;
+}
+
+li a:hover {
+
+}
+
+.sidebar {
+        display: block;
+        width 200px;
+}
+
+.header {
+        background-image: url("http://i67.tinypic.com/65s4dj.jpg");
+        display: block;
+        font-size: 30px;
+        float: left;
+        height: 300px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-width: 3px;
+        border-style: groove;
+        padding-bottom: 20px;
+        margin: 0 auto;
+}
+
+
+.quote {
+        display: inline;
+        width: 100%
+        background: linear-gradient(red, yellow);
+}
+
+h1 {
+      display: block;
+      width: 75%;
+      text-align: center;
+      padding: 50px 50px;
+      margin-bottom: 10px;
+      height: 50px;
+}
+
+.footer {
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        background: linear-gradient(red, yellow);
+        left: 0;
+        text-align: center;
+        color: white;
+}
+
+.container {
+            display: block;
+}
+
+
+img {
+        display: inline-block;
+        height: 200px;
+        width: 25%;
+        border-radius: 10px;
+        border: 1px solid black;
+}
+
+
+#6b6c6d
+
+-webkit-text-decoration-line: underline;
+
+
+
+

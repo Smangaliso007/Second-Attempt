@@ -1,48 +1,31 @@
-.container-fluid {
-                    column-count: 2;
-                    height: 400px;
+body {
+        background: #6b6c6d;
 }
 
 .column1 {
-       display: block;
-       width: 50%;
+        display: block;
+        width: 200px;
+        border: 2px solid black;
+        margin: 0px 0px 0px 0px;
 }
 
 .column2 {
         display: block;
-        width: 50%;
-}
-
-.footer {
-        position: fixed;
-        bottom: 0;
-        padding: 0;
-        width: 100%;
-        background-color: red;
-        left: 0;
-        text-align: center;
-        color: yellow;
-}
-
-body {
-
-}
-
-img {
-        height: 200px;
-        padding-bottom: 0;
-        padding-top: 0;
+        width: 75%;
+        margin: 0px 10px 20px 0px;
+        padding-right: 0px;
+        border: 2px solid black;
 }
 
 ul {
-    padding: 0;
     padding: 8px 10px 50px 20px;
+    display: block;
 }
 
 li a {
         display: block;
-        color:
-        padding: 20px 10px 20px 8px;
+        color: red;
+        padding: 10px 10px 10px 8px;
 }
 
 li a:hover {
@@ -50,7 +33,53 @@ li a:hover {
 }
 
 .sidebar {
-        padding-bottom: 200px;
+        display: block;
         width 200px;
-        padding-top: 0;
+}
+
+.header {
+        background-image: url("http://i63.tinypic.com/15xmzbs.jpg");
+        display: block;
+        font-size: 50px;
+        float: left;
+        height: 300px;
+        width: 100%;
+        background-repeat: repeat;
+        border-width: 3px;
+        border-style: groove;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        -webkit-text-decoration-line: underline;
+}
+
+.quote {
+        display: inline;
+        width: 100%
+        background: linear-gradient(red, yellow);
+}
+
+h1 {
+      display: block;
+      width: 75%;
+      text-align: center;
+      padding: 50px 50px;
+      margin-bottom: 10px;
+      height: 50px;
+      color: #6b6c6d;
+
+}
+
+.footer {
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        background: linear-gradient(red, yellow);
+        left: 0;
+        text-align: center;
+        color: white;
+}
+
+.container {
+            display: block;
 }
