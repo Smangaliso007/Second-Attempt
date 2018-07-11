@@ -5,39 +5,6 @@
 
     </div>
 
-column-count: 2;
-                    float: left;
-                    background-color: grey;
-
-
-display: block;
-       width: 40%;
-       border: 2px solid black;
-       height: 100%;
-       margin: 0px 200px 0px 0px;
-
-
-
-display: block;
-        width: 60%;
-        margin: 0px 10px 20px 0px;
-        padding-right: 100px;
-
-
-
-<div class="column2">
-<!-- (1) GO FOR THE HEADER -->
-            <div class="row">
-                <div class="header">
-                    <h1>THE CLUB</h1>
-                </div>
-            </div>
-
-            <!-- (2) GO FOR THE GRADIENT BAR WITH QUOTE -->
-
-
-
-
 }
 
 li a {
@@ -117,4 +84,58 @@ img {
 
 
 
+.column2 {
+        display: block;
+        width: 100%;
+        margin: 0px 10px 20px 0px;
+        border: 2px solid black;
+}
 
+
+
+.header {
+        background-image: url("http://i63.tinypic.com/15xmzbs.jpg");
+        display: block;
+        font-size: 50px;
+        float: left;
+        height: 300px;
+        width: 100%;
+        background-repeat: repeat;
+        border-width: 3px;
+        border-style: groove;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        -webkit-text-decoration-line: underline;
+}
+
+.quote {
+        display: block;
+        width: 100%
+        background: linear-gradient(red, yellow);
+}
+
+h1 {
+      display: block;
+      width: 75%;
+      text-align: center;
+      padding: 50px 50px;
+      margin-bottom: 10px;
+      height: 50px;
+      color: #6b6c6d;
+
+}
+
+.footer {
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        background: linear-gradient(red, yellow);
+        left: 0;
+        text-align: center;
+        color: white;
+}
+
+.container {
+            display: block;
+}
